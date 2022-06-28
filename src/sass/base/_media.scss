@@ -1,3 +1,56 @@
+@media (max-width: 991px) {
+    .header {
+        justify-content: space-around !important;
+        &__official {
+            margin-top: 10px;
+            font-size: 15px !important;
+            span {
+                font-size: 15px !important;
+            }
+        }
+        &__contacts {
+            align-items: center !important;
+        }
+        &__phone {
+            margin-top: 5px;
+            font-size: 15px !important;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center !important;
+        }
+    }
+    .advant {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__items {
+            margin-top: 20px;
+        }
+    }
+    .consultation {
+        .title {
+            &_left {
+                font-size: 28px;
+                text-align: center;
+            }
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        width: 500px !important;
+        align-items: center;
+    }
+    .button {
+        &_submit {
+            width: 46% !important;
+        }
+    }
+}
 @media (max-width: 575px) {
     .header {
         flex-direction: column;
@@ -37,6 +90,7 @@
 		&__icons {
 			flex-direction: column;
 			align-items: center;
+            width: 100% !important;
 		}
 		&__icon {
 			margin-top: 25px;
@@ -44,7 +98,7 @@
     }
 	.advant {
 		&__title {
-			font-size: 22px !important;
+			font-size: 18px !important;
 		}
 		&__wrapper {
 			flex-direction: column;
@@ -54,5 +108,27 @@
 			margin-top: 35px;
 		}
 	}
+    .consultation {
+        .title {
+            &_left {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+        &__descr {
+            text-align: center;
+            font-size: 15px !important;
+            margin-top: 15px;
+        }
+    }
+    .feed-form {
+        width: 334px !important;
+        align-items: center;
+    }
+    .button {
+        &_submit {
+            width: 68% !important;
+        }
+    }
 
 }
