@@ -113,6 +113,18 @@
             }
         }
     }
+    .reviews {
+        &__items {
+            flex-direction: column;
+            align-items: center;
+        }
+        .reviews__text {
+            margin-top: 15px;
+            text-align: center;
+            margin-left: 15px;
+            padding-right: 20px;
+        }
+    }
 }
 @media (max-width: 575px) {
 
@@ -242,6 +254,17 @@
             .catalog-item {
                 width: 275px;
             }
+        }
+    }
+    .reviews {
+        &__items {
+            flex-direction: column;
+            align-items: center;
+        }
+        .reviews__text {
+            text-align: center;
+            margin-left: 15px;
+            padding-right: 20px;
         }
     }
 
